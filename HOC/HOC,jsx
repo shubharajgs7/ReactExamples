@@ -1,0 +1,11 @@
+const HOC = (Component) => {
+  const details = {
+    name: "shubharaj",
+    role: "FE developer",
+    company: "TEKsystems"
+  };
+
+  return () => <Component details={details} />;
+};
+
+export default HOC;
